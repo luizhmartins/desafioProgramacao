@@ -33,6 +33,8 @@ main(){
 		for (j=0; j<=i; j++){
 			substring2[j] = palavra[j];
 		}
+		
+		// Teste se o vetor está sendo preenchido corretamente
 		//printf("\nSubstring 2: %s",substring2);
 		//	printf("\npalavra: %s",palavra);
 		
@@ -46,6 +48,7 @@ main(){
 			}
 		}
 	}
-
+	printf("\n\n");
+	system("pause");
 }
 
