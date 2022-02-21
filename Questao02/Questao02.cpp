@@ -38,6 +38,14 @@ main (){ // Inicio do programa
 	if (cont3 > 0) result++;                  // Se a variável cont3 for maior que 0, result incrementa 1.
 	if (cont4 > 0) result++;                  // Se a variável cont4 for maior que 0, result incrementa 1.
 	
+	//TESTE DE SAÍDAS E VALIDAÇÕES (Para realizar o teste, remova os comentarios das linhas a seguir)
+	//if (cont1<1)printf("\nFalta 1 caracter especial");
+	//if (cont2<1)printf("\nFalta 1 digito");
+	//if (cont3<1)printf("\nFalta 1 letra minuscula");
+	//if (cont4<1)printf("\nFalta 1 letra maiuscula");
+	//if (tamSenha<6) printf("\nFaltam %d caracteres no total para ter no minimo 6 caracteres", 6-tamSenha);
+	//printf("\n");
+	
 	if (tamSenha>=6){                         // se o tamanho da senha for maior que 6 caracteres, significa que o algoritmo vai mostrar pro usuário apenas requisitos de digito, caracter especial, letra maiuscula e minuscula que fatam pro usuário digitar
 		printf("\n%d\n\n", 4-result);             // Mostra o resultado do algoritmo na tela
 	}else{                                    // Se o tamanho da senha for menor que 6, significa que alem de mostrar os caracteres de requisitos faltantes na senha, ainda deve mostrar quantos caracteres ainda faltam para conter pelo menos 6 carateres na senha
